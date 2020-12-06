@@ -12,7 +12,7 @@ ClamAV daemon as a Docker image. It *builds* with a current virus database and
 is listening on exposed port `3310`.
 
 # Credits
-This is a fork of [https://github.com/mko-x/docker-clamav](https://github.com/mko-x/docker-clamav). The main difference is that this is a very simplified version with only one tag based on alpine.
+This is a fork of [https://github.com/mko-x/docker-clamav](https://github.com/mko-x/docker-clamav). The main difference is that this is a very simplified version with only one tag based on alpine. This also adds back automatic helath check.
 
 ## Usage
 ```bash
