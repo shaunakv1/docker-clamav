@@ -14,4 +14,4 @@ EXPOSE 3310/tcp
 
 CMD ["/bootstrap.sh"]
 
-HEALTHCHECK --start-period=120s CMD /check.sh
+HEALTHCHECK --start-period=500s CMD /check.sh
